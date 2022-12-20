@@ -1,0 +1,267 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.arrow{
+    position: fixed;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: red;
+    top: 90%;
+    left: 96%;
+    transition: .3s;
+}
+
+.arrow:hover{
+    background-color: red;
+    color: white !important;
+}
+
+.locasia {
+    min-height: 100vh;
+    color: white;
+    background: linear-gradient(to bottom, rgb(71, 71, 71), rgb(54, 53, 53));
+}
+
+.locasia nav {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.locasia nav a {
+    position: relative;
+    transition: .3s;
+}
+
+.locasia nav a:hover {
+    color: white;
+    scale: 1.2;
+}
+
+.locasia nav a::before {
+    position: absolute;
+    content: '';
+    top: 105%;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: white;
+    transition: all .3s linear;
+}
+
+.locasia nav a:hover::before {
+    width: 100%;
+}
+
+.Fargana-city-map{
+    height: 70vh;
+    margin-top: 100px;
+}
+
+.Fargana-city-map > .left{
+    padding-top: 50px;
+}
+
+
+.Fargana-city-map > .left > p{
+   font-size: 15px;
+   line-height: 40px;
+   font-family: sans-serif;
+}
+
+.Fargana-city-map > .left > a{
+    background-color: rgb(0, 0, 190);
+    color: white;
+    transition: .3s;
+    font-family: sans-serif;
+    box-shadow: 0 5px 12px 1px rgb(102, 102, 102);
+}
+
+.Fargana-city-map > .left > a:hover{
+    background-color: rgba(0, 0, 255, 0.719);
+}
+
+.Fargana-city-map > .right img{
+    width: 600px;
+    height: 60vh;
+}
+
+.Tashkend-city-map{
+    height: 70vh;
+}
+
+.Tashkend-city-map > .left img{
+    width: 600px !important;
+    height: 60vh;
+}
+
+
+.Tashkend-city-map > .right{
+    padding-top: 50px;
+}
+
+
+.Tashkend-city-map > .right p{
+    font-size: 15px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+.Tashkend-city-map > .right > a{
+    background-color: rgb(0, 0, 190);
+    color: white;
+    transition: .3s;
+    font-family: sans-serif;
+    box-shadow: 0 5px 12px 1px rgb(102, 102, 102);
+}
+
+.Tashkend-city-map > .right > a:hover{
+    background-color: rgba(0, 0, 255, 0.719);
+}
+
+.Namangan-city-map{
+    height: 70vh;
+}
+
+.Namangan-city-map > .left h1{
+    font-family: 'Rubik Gemstones', cursive;
+    color: white !important;
+}
+
+.Namangan-city-map > .left p{
+    font-size: 15px;
+    line-height: 40px;
+    color: white !important;
+}
+
+.Namangan-city-map > .left > a{
+    background-color: rgb(0, 0, 190);
+    color: white;
+    transition: .3s;
+    font-family: sans-serif;
+    box-shadow: 0 5px 12px 1px rgb(102, 102, 102);
+}
+
+.Namangan-city-map > .left > a:hover{
+    background-color: rgba(0, 0, 255, 0.719);
+}
+
+
+.Namangan-city-map > .right img{
+    width: 600px;
+    height: 60vh;
+}
+
+.Buhor-city-map{
+    height: 70vh;
+}
+
+.Buhor-city-map > .left img{
+    width: 600px;
+    height: 60vh;
+}
+
+
+.Buhor-city-map > .right{
+    padding-top: 50px;
+}
+
+
+.Buhor-city-map > .right p{
+    font-size: 15px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+
+.Buhor-city-map > .right > a{
+    background-color: rgb(0, 0, 190);
+    color: white;
+    transition: .3s;
+    font-family: sans-serif;
+    box-shadow: 0 5px 12px 1px rgb(102, 102, 102);
+}
+
+.Buhor-city-map > .right > a:hover{
+    background-color: rgba(0, 0, 255, 0.719);
+}
+
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    align-items: center;
+}
+
+footer > .left{
+    width: 33%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+footer > .left > a{
+    font-size: 17px !important;
+    line-height: 30px;
+    position: relative;
+    width: 13%;
+}
+
+footer > .left > a:hover{
+    color: white !important;
+}
+
+footer > .middle{
+    width: 33%;
+    height: 30vh;
+    margin-left: 140px;
+}
+
+footer > .middle > a{
+    font-size: 17px !important;
+    line-height: 30px;
+    position: relative;
+    width: 30%;
+}
+
+footer > .middle > a:hover{
+    color: white !important;
+}
+
+footer > .right{
+    width: 33%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px !important;
+}
+
+footer > .right .icons a{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(1, 126, 126);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer > .right .icons a:hover{
+    background-color: rgb(0, 185, 185);
+}

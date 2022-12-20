@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+}
+
+form{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgb(71, 71, 71), rgb(54, 53, 53));
+}
+
+form > nav{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+form > nav > a{
+    color: white;
+    transition: .3s;
+    position: relative;
+}
+
+form > nav > a:hover{
+    color: white;
+    scale: 1.2;
+}
+
+form > nav > a::before{
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    transition: all .3s linear;
+}
+
+form > nav > a:hover::before{
+    width: 110%;
+}
+
+.Bizning-mahsulotlar{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Bizning-mahsulotlar > h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+.Bizning-mahsulotlar > div{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin: 65px 0;
+}
+
+.Bizning-mahsulotlar > div > div{
+    width: 50%;
+    height: 70vh;
+}
+
+.Bizning-mahsulotlar > div > div > img{
+    width: 100%;
+    height: 100%;
+}
+
+.Bizning-mahsulotlar > div > div > p{
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.Bizning-mahsulotlar > div > div >h1{
+    margin: 50px 0 0 100px;
+    color: white;
+}
+
+.Bizning-mahsulotlar > div > div > a{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    background-color: rgb(110, 110, 233);
+    border-radius: 6px;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: .4s;
+    box-shadow: 0 5px 10px 1px rgb(143, 141, 141);
+}
+
+.Bizning-mahsulotlar > div > div > a:hover{
+    background-color: blue;
+}
+
+.Bizning-mahsulotlar > div > div > h3{
+    margin-left: 100px;
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+
+.Biznin-mahsulotlar_seven{
+    height: 65vh !important;
+}
+
+.recistration{
+  width: 40% !important;
+  height: 55vh !important;
+  margin: 20px auto !important;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 20px 20px;
+  box-shadow: 0 5px 20px 5px rgb(87, 85, 85);
+}
+
+.recistration > .input-group{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.recistration > .input-group input{
+  width: 40% !important;
+  background-color: rgba(0,0,0,0);
+  border:1px solid white !important;
+  color: white !important;
+}
+
+.recistration > .input-group input::placeholder{
+  color: white;
+}
+
+.recistration > input{
+  height: 20vh !important;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+  margin-top: 20px;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border: 1px solid white;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.recistration > input::placeholder{
+  color: white;
+}
+
+.recistration > a{
+  border: 1px solid white;
+  margin-top: 30px;
+  color: white;
+}
+
+.recistration > a:hover{
+  border: 1px solid white !important;
+  color: white;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(87, 87, 87);
+    display: flex;
+  }
+  
+  footer>div {
+    width: 33%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 50px;
+  }
+  
+  footer>div:nth-child(1) h3 {
+    color: white !important;
+  }
+  
+  footer>div:nth-child(1)>a {
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+  }
+  
+  footer>div:nth-child(1)>a:hover {
+    color: white;
+  }
+  
+  footer>div:nth-child(2) {
+    padding-top: 30px;
+  }
+  
+  footer>div:nth-child(2)>a {
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+  }
+  
+  footer>div:nth-child(2)>a:hover {
+    color: white;
+  }
+  
+  footer>div:nth-child(3){
+    padding-bottom: 50px;
+  }
+  
+  footer>div:nth-child(3) .icons{
+    display: flex;
+    gap: 10px;
+  }
+  
+  
+  footer>div:nth-child(3) .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(1, 126, 126);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: .3s;
+    display: flex;
+  }
+  
+  footer>div:nth-child(3) .icons a:hover {
+    background-color: rgb(0, 185, 185);
+  }
